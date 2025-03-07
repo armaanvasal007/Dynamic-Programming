@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Solution
+comment0.text=Question\ 1\:-\r\n\r\nIntroduction\ to\ DP\r\n\r\nGeek\ is\ learning\ data\ structures,\ and\ he\ recently\ learned\ about\ the\ top-down\ and\ bottom-up\ dynamic\ programming\ approaches.\ Geek\ is\ having\ trouble\ telling\ them\ apart\ from\ one\ another.\r\n\r\nWhen\ given\ an\ integer\ n,\ where\ n\ is\ based\ on\ a\ 0-based\ index,\ find\ the\ nth\ Fibonacci\ number.\r\n\r\nEvery\ ith\ number\ in\ the\ series\ equals\ the\ sum\ of\ the\ (i-1)th\ and\ (i-2)th\ numbers,\ where\ the\ first\ and\ second\ numbers\ are\ specified\ as\ 0\ and\ 1,\ respectively.\r\n\r\nFor\ the\ given\ issue,\ code\ both\ top-down\ and\ bottom-up\ approaches.\r\n\r\nNote\ \:\ As\ the\ answer\ might\ be\ large,\ return\ the\ final\ answer\ modulo\ 109\ +\ 7\r\n\r\nExample\ 1\:\r\n\r\nInput\:\r\nn\ \=\ 5\r\nOutput\:\ 5\r\nExplanation\:\ 0,1,1,2,3,5\ as\ we\ can\ see\ 5th\ number\ is\ 5.\r\nExample\ 2\:\r\n\r\nInput\:\r\nn\ \=\ 6\r\nOutput\:\ 8\r\nExplanation\:\ 0,1,1,2,3,5,8\ as\ we\ can\ see\ 6th\ number\ is\ 8.\r\nConstraints\:\r\n1\ <\=\ n\ <\=\ 104\r\n\r\nYour\ Task\:\r\nYou\ don't\ need\ to\ read\ input\ or\ print\ anything.\ Your\ task\ is\ to\ complete\ two\ functions\ topDown()\ and\ bottomUp()\ which\ take\ n\ as\ input\ parameters\ and\ return\ the\ nth\ Fibonacci\ number.\r\n
+comment1.params=n
+comment1.target=long\ topDown(int)
+comment2.params=n\ dp
+comment2.target=long\ Top(int,\ long[])
+comment3.params=n
+comment3.target=long\ bottomUp(int)
+numComments=4
